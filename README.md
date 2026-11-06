@@ -1,3 +1,4 @@
+![Francisco Reyes - Cybersecurity Portfolio](banner.png)
 # Francisco Reyes
 ### Cybersecurity Graduate Student | Aspiring SOC Analyst
 
