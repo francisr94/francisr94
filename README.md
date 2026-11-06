@@ -18,6 +18,15 @@ My goal is to build a career in Security Operations (SOC), focusing on security 
 
 ## 🛠️ Technical Skills & Tools
 
+![Splunk](https://img.shields.io/badge/Splunk-SIEM-black?logo=splunk)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?logo=windows)
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4)
+![pfSense](https://img.shields.io/badge/pfSense-Firewall-212121)
+![Sysmon](https://img.shields.io/badge/Microsoft-Sysmon-blue)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox)
+
 - **SIEM:** Splunk Enterprise
 - **Endpoint Monitoring:** Microsoft Sysmon
 - **Operating Systems:** Windows Server, Windows, Linux
