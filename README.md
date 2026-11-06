@@ -75,8 +75,9 @@ June 2026
 
 ## 🤝 Connect With Me
 
+- LinkedIn: [Francisco Reyes](https://www.linkedin.com/in/francisco-reyes-cyber)
 - GitHub: [@francisr94](https://github.com/francisr94)
-
+  
 ---
 
 *Building practical cybersecurity skills through continuous learning, hands-on labs, and security projects.*
