@@ -18,14 +18,14 @@ My goal is to build a career in Security Operations (SOC), focusing on security 
 
 ## 🛠️ Technical Skills & Tools
 
-![Splunk](https://img.shields.io/badge/Splunk-Enterprise-black?logo=splunk)
-![Windows Server](https://img.shields.io/badge/Windows_Server-blue)
-![Active Directory](https://img.shields.io/badge/Active_Directory-blue)
-![pfSense](https://img.shields.io/badge/pfSense-Firewall-212121)
-![Sysmon](https://img.shields.io/badge/Microsoft-Sysmon-blue)
-![Linux](https://img.shields.io/badge/Linux-yellow)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-blue)
+![Splunk](https://badgen.net/badge/Splunk/Enterprise/black)
+![Windows Server](https://badgen.net/badge/Windows/Server/0078D6)
+![Active Directory](https://badgen.net/badge/Active/Directory/0078D4)
+![pfSense](https://badgen.net/badge/pfSense/Firewall/212121)
+![Sysmon](https://badgen.net/badge/Microsoft/Sysmon/blue)
+![Linux](https://badgen.net/badge/Linux/Server/FCC624)
+![Python](https://badgen.net/badge/Python/Programming/3776AB)
+![VirtualBox](https://badgen.net/badge/Oracle/VirtualBox/183A61)
 
 - **SIEM:** Splunk Enterprise
 - **Endpoint Monitoring:** Microsoft Sysmon
