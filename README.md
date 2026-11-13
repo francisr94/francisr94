@@ -4,9 +4,11 @@
 
 ### Cybersecurity Graduate Student | Aspiring SOC Analyst
 
-**Open to entry-level SOC Analyst opportunities.**
+**Open to entry-level SOC Analyst and Cybersecurity Operations opportunities.**
 
-I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thomas Edison State University. I am building a career in security operations, focusing on security monitoring, threat detection, log analysis, and incident investigation.
+## 👨‍💻 Professional Summary
+
+Cybersecurity graduate student with a Bachelor of Science in Cybersecurity and hands-on experience developing security monitoring and analysis projects using Splunk Enterprise, Microsoft Sysmon, Windows Server, Active Directory, and Python. Academic training in network defense, vulnerability assessment, digital forensics, and incident response. Brings professional experience in technical troubleshooting, regulatory compliance, operational documentation, and problem-solving. Seeking an entry-level SOC Analyst or cybersecurity operations position to apply technical knowledge, analytical skills, and a strong foundation in security principles to support organizational security operations.
 
 ## 🛠️ Technical Skills & Tools
 
@@ -18,16 +20,14 @@ I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thoma
 ![Linux](https://badgen.net/badge/Linux/Server/FCC624)
 ![VirtualBox](https://badgen.net/badge/Oracle/VirtualBox/183A61)
 
-- **SIEM:** Splunk Enterprise
-- **Endpoint Monitoring:** Microsoft Sysmon
-- **Operating Systems:** Windows Server, Windows, Linux
-- **Networking:** TCP/IP, pfSense, network segmentation, packet analysis
-- **Identity & Access Management:** Active Directory, DNS
-- **Log Analysis:** Windows Security Events, Sysmon telemetry, authentication logs
-- **Detection & Alerting:** SPL searches, scheduled Splunk alerts, threshold-based detection, MITRE ATT&CK
-- **Threat Analysis:** Email header analysis, indicator research, VirusTotal, ARIN
-- **Virtualization:** Oracle VirtualBox
-- **Scripting:** Python, security log analysis
+- **SIEM & Security Monitoring:** Splunk Enterprise, Splunk Universal Forwarder, Search Processing Language (SPL), centralized log collection, Windows event analysis, basic detection logic, scheduled alerts.
+- **Endpoint Security & Windows Administration:** Microsoft Sysmon, Windows Security Event Logs, Windows Server 2022, Active Directory Domain Services (AD DS), DNS, Windows Server configuration.
+- **Network Security & Infrastructure:** pfSense CE, TCP/IP, routing and switching fundamentals, firewall configuration, network segmentation, network troubleshooting, TShark, packet analysis.
+- **Cybersecurity & Defense:** Network defense, vulnerability identification, security risk management, MITRE ATT&CK, incident response fundamentals, ethical hacking concepts.
+- **Digital Forensics:** Digital forensic analysis, Linux system forensics, mobile forensics fundamentals, forensic evidence handling.
+- **Programming & Systems:** Python, Linux administration, Ubuntu Server, database fundamentals, Oracle VirtualBox.
+- **Threat Analysis:** Email header analysis, indicator research, VirusTotal, ARIN, phishing investigation.
+- **IT Operations & Technical Support:** Hardware and software troubleshooting, POS systems, inventory management software, technical documentation, operational recordkeeping, issue escalation.
 
 ## 🔬 Featured Projects
 
@@ -84,6 +84,14 @@ Thomas Edison State University — June 2026
 - Threat hunting and incident response
 - Python for security automation
 - CompTIA Security+ preparation
+
+## 💼 Additional Professional Skills
+
+- Technical troubleshooting and problem-solving
+- Regulatory compliance and operational documentation
+- Staff coordination and operational support
+- Customer service and conflict resolution
+- Vendor communication and task prioritization
 
 ## 🤝 Connect With Me
 
