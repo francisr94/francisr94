@@ -43,6 +43,9 @@ A segmented virtual network with pfSense, a Windows Server 2022 Active Directory
 
 Analysis of a bank-impersonation phishing email: sender and header review, authentication results, link and body analysis, indicator research, and a recommended response.
 
+### [Failed Login Analyzer](https://github.com/francisr94/Failed-Login-Analyzer)
+Python tool that flags repeated failed logins in Splunk CSV exports, using the same threshold logic as my lab alert.
+
 - Traced the message to a rented cloud server and identified a spoofed sender domain.
 - Researched indicators with ARIN and VirusTotal, and defanged all indicators in the report.
 - Documented the limits of the evidence, including expired infrastructure.
