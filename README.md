@@ -25,9 +25,10 @@ I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thoma
 - **Identity & Access Management:** Active Directory, DNS
 - **Log Analysis:** Windows Security Events, Sysmon telemetry
 - **Detection & Alerting:** SPL searches, scheduled Splunk alerts, MITRE ATT&CK mapping
+- **Threat Analysis:** email header and indicator analysis, VirusTotal and ARIN lookups
 - **Virtualization:** Oracle VirtualBox
 
-## 🔬 Featured Project
+## 🔬 Featured Projects
 
 ### [Cybersecurity SOC Home Lab](https://github.com/francisr94/Cybersecurity-SOC-HomeLab)
 
@@ -37,6 +38,14 @@ A segmented virtual network with pfSense, a Windows Server 2022 Active Directory
 - Configured a scheduled alert for repeated failed logins and confirmed that it fires.
 - Validated a command-shell detection (T1059.003) with a controlled Atomic Red Team test.
 - Mapped monitoring capabilities to MITRE ATT&CK techniques.
+
+### [Phishing Email Analysis](https://github.com/francisr94/Phishing-Email-Analysis)
+
+Analysis of a bank-impersonation phishing email: sender and header review, authentication results, link and body analysis, indicator research, and a recommended response.
+
+- Traced the message to a rented cloud server and identified a spoofed sender domain.
+- Researched indicators with ARIN and VirusTotal, and defanged all indicators in the report.
+- Documented the limits of the evidence, including expired infrastructure.
 
 ## 🎓 Education
 
