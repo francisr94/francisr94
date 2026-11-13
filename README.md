@@ -4,7 +4,7 @@
 
 ### Cybersecurity Graduate Student | Aspiring SOC Analyst
 
-Open to entry-level SOC Analyst roles.
+**Open to entry-level SOC Analyst opportunities.**
 
 I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thomas Edison State University. I'm building a career in security operations, with a focus on security monitoring, threat detection, and incident investigation.
 
@@ -25,49 +25,61 @@ I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thoma
 - **Identity & Access Management:** Active Directory, DNS
 - **Log Analysis:** Windows Security Events, Sysmon telemetry
 - **Detection & Alerting:** SPL searches, scheduled Splunk alerts, MITRE ATT&CK mapping
-- **Threat Analysis:** email header and indicator analysis, VirusTotal and ARIN lookups
+- **Threat Analysis:** Email header analysis, indicator research, VirusTotal, ARIN
 - **Virtualization:** Oracle VirtualBox
-- **Scripting:** Python (log analysis)
+- **Scripting:** Python, security log analysis
 
 ## 🔬 Featured Projects
 
 ### [Cybersecurity SOC Home Lab](https://github.com/francisr94/Cybersecurity-SOC-HomeLab)
 
-A segmented virtual network with pfSense, a Windows Server 2022 Active Directory domain (`corp.local`), Ubuntu Server, Splunk Enterprise, and Sysmon endpoint telemetry.
+A segmented virtual network built with pfSense, Windows Server 2022 Active Directory (`corp.local`), Ubuntu Server, Splunk Enterprise, and Sysmon endpoint telemetry.
 
 - Built Splunk searches to investigate failed logins and process creation.
-- Configured a scheduled alert for repeated failed logins and confirmed that it fires.
-- Validated a command-shell detection (T1059.003) with a controlled Atomic Red Team test.
+- Configured and tested a scheduled alert for repeated failed login attempts.
+- Validated command-shell detection (T1059.003) using a controlled Atomic Red Team test.
+- Forwarded Windows Security and Sysmon events to a centralized Splunk environment.
 - Mapped monitoring capabilities to MITRE ATT&CK techniques.
 
 ### [Phishing Email Analysis](https://github.com/francisr94/Phishing-Email-Analysis)
 
-Analysis of a bank-impersonation phishing email: sender and header review, authentication results, link and body analysis, indicator research, and a recommended response.
-
-### [Failed Login Analyzer](https://github.com/francisr94/Failed-Login-Analyzer)
-Python tool that flags repeated failed logins in Splunk CSV exports, using the same threshold logic as my lab alert.
+Investigated a bank-impersonation phishing email through sender and header review, authentication results, link and message-body analysis, and indicator research.
 
 - Traced the message to a rented cloud server and identified a spoofed sender domain.
-- Researched indicators with ARIN and VirusTotal, and defanged all indicators in the report.
-- Documented the limits of the evidence, including expired infrastructure.
+- Researched indicators using ARIN and VirusTotal.
+- Defanged indicators in the investigation report.
+- Documented evidence limitations, including expired infrastructure.
+- Developed recommended response actions based on the findings.
+
+### [Failed Login Analyzer](https://github.com/francisr94/Failed-Login-Analyzer)
+
+A Python tool that identifies repeated failed login attempts in Splunk CSV exports using threshold-based detection logic.
+
+- Analyzes Windows failed authentication events.
+- Identifies repeated login failures.
+- Helps highlight suspicious authentication patterns.
+- Supports basic security event investigation and log analysis.
 
 ## 🎓 Education
 
-**M.S. in Cybersecurity**, Thomas Edison State University (expected March 2027)
-**B.S. in Cybersecurity**, Thomas Edison State University (June 2026)
+**M.S. in Cybersecurity**  
+Thomas Edison State University — Expected March 2027
+
+**B.S. in Cybersecurity**  
+Thomas Edison State University — June 2026
 
 ## 📚 Currently Learning
 
 - SOC alert triage and detection engineering
 - Threat hunting and incident response
 - Python for security automation
-- CompTIA Security+ (in progress)
+- CompTIA Security+ preparation
 
 ## 🤝 Connect With Me
 
-- LinkedIn: [Francisco Reyes](https://www.linkedin.com/in/francisco-reyes-cyber)
-- GitHub: [@francisr94](https://github.com/francisr94)
+- **LinkedIn:** [Francisco Reyes](https://www.linkedin.com/in/francisco-reyes-cyber)
+- **GitHub:** [@francisr94](https://github.com/francisr94)
 
 ---
 
-*Building practical cybersecurity skills through hands-on labs and security projects.*
+*Building practical cybersecurity skills through hands-on labs, continuous learning, and security projects.*
