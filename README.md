@@ -6,7 +6,7 @@
 
 **Open to entry-level SOC Analyst opportunities.**
 
-I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thomas Edison State University. I'm building a career in security operations, with a focus on security monitoring, threat detection, and incident investigation.
+I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thomas Edison State University. I am building a career in security operations, focusing on security monitoring, threat detection, log analysis, and incident investigation.
 
 ## 🛠️ Technical Skills & Tools
 
@@ -21,44 +21,54 @@ I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thoma
 - **SIEM:** Splunk Enterprise
 - **Endpoint Monitoring:** Microsoft Sysmon
 - **Operating Systems:** Windows Server, Windows, Linux
-- **Networking:** TCP/IP, pfSense, network segmentation
+- **Networking:** TCP/IP, pfSense, network segmentation, packet analysis
 - **Identity & Access Management:** Active Directory, DNS
-- **Log Analysis:** Windows Security Events, Sysmon telemetry
-- **Detection & Alerting:** SPL searches, scheduled Splunk alerts, MITRE ATT&CK mapping
+- **Log Analysis:** Windows Security Events, Sysmon telemetry, authentication logs
+- **Detection & Alerting:** SPL searches, scheduled Splunk alerts, threshold-based detection, MITRE ATT&CK
 - **Threat Analysis:** Email header analysis, indicator research, VirusTotal, ARIN
 - **Virtualization:** Oracle VirtualBox
 - **Scripting:** Python, security log analysis
 
 ## 🔬 Featured Projects
 
-### [Cybersecurity SOC Home Lab](https://github.com/francisr94/Cybersecurity-SOC-HomeLab)
+### 1. [Cybersecurity SOC Home Lab](https://github.com/francisr94/Cybersecurity-SOC-HomeLab)
 
-A segmented virtual network built with pfSense, Windows Server 2022 Active Directory (`corp.local`), Ubuntu Server, Splunk Enterprise, and Sysmon endpoint telemetry.
+A virtualized Security Operations Center environment built with pfSense, Windows Server 2022 Active Directory, Ubuntu Server, Splunk Enterprise, and Sysmon.
 
-- Built Splunk searches to investigate failed logins and process creation.
-- Configured and tested a scheduled alert for repeated failed login attempts.
-- Validated command-shell detection (T1059.003) using a controlled Atomic Red Team test.
-- Forwarded Windows Security and Sysmon events to a centralized Splunk environment.
-- Mapped monitoring capabilities to MITRE ATT&CK techniques.
+- Configured centralized collection of Windows Security and Sysmon events.
+- Developed Splunk searches to investigate failed logins and process creation.
+- Configured and tested scheduled alerts for repeated failed login attempts.
+- Validated command-shell detection using a controlled Atomic Red Team test mapped to MITRE ATT&CK T1059.003.
+- Practiced security monitoring, alert investigation, and detection validation.
 
-### [Phishing Email Analysis](https://github.com/francisr94/Phishing-Email-Analysis)
+### 2. [Network Traffic Monitoring](https://github.com/francisr94/Network-Traffic-Monitoring)
 
-Investigated a bank-impersonation phishing email through sender and header review, authentication results, link and message-body analysis, and indicator research.
+A Python-based network monitoring project using TShark to capture and analyze ICMP traffic in a virtual lab environment.
+
+- Captured network traffic using TShark and Python.
+- Analyzed packet counts, source IP addresses, and traffic volume.
+- Implemented threshold-based detection for high-volume ICMP traffic.
+- Generated structured JSON security alerts for analyst review.
+- Tested detection logic using controlled ICMP traffic between lab systems.
+
+### 3. [Phishing Email Analysis](https://github.com/francisr94/Phishing-Email-Analysis)
+
+An investigation of a bank-impersonation phishing email using email header analysis, authentication results, message content review, and indicator research.
 
 - Traced the message to a rented cloud server and identified a spoofed sender domain.
 - Researched indicators using ARIN and VirusTotal.
 - Defanged indicators in the investigation report.
 - Documented evidence limitations, including expired infrastructure.
-- Developed recommended response actions based on the findings.
+- Developed recommended response actions based on investigation findings.
 
-### [Failed Login Analyzer](https://github.com/francisr94/Failed-Login-Analyzer)
+### 4. [Failed Login Analyzer](https://github.com/francisr94/Failed-Login-Analyzer)
 
-A Python tool that identifies repeated failed login attempts in Splunk CSV exports using threshold-based detection logic.
+A Python tool that analyzes Splunk CSV exports to identify repeated failed login attempts using threshold-based detection logic.
 
 - Analyzes Windows failed authentication events.
 - Identifies repeated login failures.
-- Helps highlight suspicious authentication patterns.
-- Supports basic security event investigation and log analysis.
+- Highlights potentially suspicious authentication patterns.
+- Supports security event investigation and log analysis.
 
 ## 🎓 Education
 
