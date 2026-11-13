@@ -27,6 +27,7 @@ I hold a B.S. in Cybersecurity and am pursuing an M.S. in Cybersecurity at Thoma
 - **Detection & Alerting:** SPL searches, scheduled Splunk alerts, MITRE ATT&CK mapping
 - **Threat Analysis:** email header and indicator analysis, VirusTotal and ARIN lookups
 - **Virtualization:** Oracle VirtualBox
+- **Scripting:** Python (log analysis)
 
 ## 🔬 Featured Projects
 
